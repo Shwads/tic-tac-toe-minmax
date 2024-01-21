@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Game Over</title>
+        <link rel="stylesheet" href="/styles/styles.css">
+    </head>
+    <body>
+        <h1>Game Over!</h1>
+            <% if (result === 1) { %>
+                <h2>Congratulations! You beat the Minimax algorith!</h2>
+                <h3>You're at least as good as a simple algorithm!</h3>
+            <% } else if (result === -1) { %>
+                <h2>Bad luck, the computer won this time :(</h2>
+            <% } else { %>
+                <h2>It Was a Draw</h2>
+                <h3>Sometimes, there are no winners</h3>
+            <% } %>
+        <form action="/" method="POST">
+            <input type="submit" value="Play Again">
+        </form>
+    </body>
+</html>

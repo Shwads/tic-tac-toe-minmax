@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="/styles/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="board-cell" class="item1">
+                <form action="/0.0" method="POST">
+                    <input type="submit" value=<%= board[0][0] %>>
+                </form>
+            </div>
+            <div id="board-cell" class="item2">
+                <form action="/0.1" method="POST">
+                    <input type="submit" value=<%= board[0][1] %>>
+                </form>
+            </div>
+            <div id="board-cell" class="item3">
+                <form action="/0.2" method="POST">
+                    <input type="submit" value=<%= board[0][2] %>>
+                </form>
+            </div>
+            <div id="board-cell" class="item4">
+                <form action="/1.0" method="POST">
+                    <input type="submit" value=<%= board[1][0] %>>
+                </form>
+            </div>
+            <div id="board-cell" class="item5">
+                <form action="/1.1" method="POST">
+                    <input type="submit" value=<%= board[1][1] %>>
+                </form>
+            </div>
+            <div id="board-cell" class="item6">
+                <form action="/1.2" method="POST">
+                    <input type="submit" value=<%= board[1][2] %>>
+                </form>
+            </div>
+            <div id="board-cell" class="item7">
+                <form action="/2.0" method="POST">
+                    <input type="submit" value=<%= board[2][0] %>>
+                </form>
+            </div>
+            <div id="board-cell" class="item8">
+                <form action="/2.1" method="POST">
+                    <input type="submit" value=<%= board[2][1] %>>
+                </form>
+            </div>
+            <div id="board-cell" class="item9">
+                <form action="/2.2" method="POST">
+                    <input type="submit" value=<%= board[2][2] %>>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
